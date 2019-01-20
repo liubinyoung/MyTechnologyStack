@@ -1,0 +1,13 @@
+1 git  init						创建版本库，在项目文件夹内，执行；
+2 git  status  					进行查看文件状态   
+3 git add <文件名>				将文件添加到暂存区    
+4 git commit –m “注释内容”		提交文件到本地库,带注释提交
+5 git log <文件名>				查看历史记录
+6 git log --pretty=online <文件名> 简易查看信息
+7 git reset --hard HEAD^		回退上一次提交
+8 git reset --hard HEAD~n		回退n次操作
+9 git reflog <文件名>			查看历史记录版本号
+10 git reset -hard <版本号>		穿越到某个版本
+11 git checkout --<文件名> 		还原文件
+12 git stash					先将本地修改暂存起来
+13 git stash pop 				还原暂存内容
